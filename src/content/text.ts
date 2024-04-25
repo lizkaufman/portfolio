@@ -1,6 +1,6 @@
 export const homepage = {
   summary: [
-    "Lorem ipsum here's a whole sentence. Lorem ipsum here's a whole sentence. Lorem ipsum here's a whole sentence. Lorem ipsum here's a whole sentence. ",
+    "I'm a software engineer who fell in love with code because code is the closest thing to magic in real life.",
   ],
   workExperience: [
     "I grew up just outside of Atlanta in the US and graduated with a history degree and three quarters of an archaeology degree.",

@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "codingbumblebee-yellow": "#f8e71c",
+        "codingbumblebee-grey": "#434343",
+        "codingbumblebee-blue": "#6fcdff",
+        "codingbumblebee-green": "#89b99d",
+        "codingbumblebee-brown": "#50361f",
+        "codingbumblebee-dark-grey": "#171717",
+      },
     },
   },
   plugins: [],
