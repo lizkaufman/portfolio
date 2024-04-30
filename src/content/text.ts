@@ -10,6 +10,6 @@ export const homepage = {
   ],
   outsideOfWork: [
     "Outside of work, I dote on my cat, try not to kill my houseplants, and collect ridiculous glasses. I love posh tea, cheap chocolate, and old records from the 60s and 70s.",
-    "When I'm not coding, I unwind by reading, attempting to write novels, listening to podcasts, and painting Warhammer figures.",
+    "I unwind by reading, attempting to write novels, listening to podcasts, and painting Warhammer figures.",
   ],
 };
