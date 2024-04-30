@@ -2,6 +2,7 @@ import Image from "next/image";
 import { homepage } from "@/content/text";
 import { Email, GitHub, LinkedIn, EmojiEmotions } from "@mui/icons-material";
 import LinkButton from "@/components/atoms/LinkButton/LinkButton";
+import Typography from "@/components/atoms/Typography/Typography";
 
 export type HeroProps = {};
 
@@ -19,9 +20,11 @@ export default function Hero({}: HeroProps) {
       </div>
 
       <div className="col-start-2 col-span-2 flex flex-col justify-around space-y-4 p-4 pt-8 md:pl-8 text-center md:text-left">
-        <h1 className="text-3xl m-0">Hello!</h1>
-        <h2 className="text-xl">I'm Liz Kaufman.</h2>
-        <p className="">{homepage.summary}</p>
+        <Typography as="h1" text="Hello!" />
+        <Typography as="h2" text="I'm Liz Kaufman." />
+        {homepage.summary.map((paragraph) => (
+          <Typography as="p" text={paragraph} />
+        ))}
         <div className="flex flex-row items-center space-x-4 justify-center md:justify-start">
           <LinkButton href="">
             {/* TODO: set up to link to below the fold */}
